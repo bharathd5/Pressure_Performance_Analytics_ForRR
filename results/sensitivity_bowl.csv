@@ -1,0 +1,8 @@
+variant,overlap_with_base_top10
+High threshold LI>=1.3,8
+High threshold LI>=1.6,10
+High threshold LI>=2.0,8
+weights base,10
+weights P-only,9
+weights equal,10
+weights lift-heavy,10

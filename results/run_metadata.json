@@ -1,0 +1,88 @@
+{
+ "checks": {
+  "matches_with_balls": 867,
+  "deliveries": 200961,
+  "winner_agreement_pct": 86.1,
+  "n_checked": 842,
+  "mean_first_innings_total": 172.3,
+  "mean_second_innings_total": 156.2,
+  "duplicate_balls": 0,
+  "innings_over_120_legal_balls": 0,
+  "null_striker": 0
+ },
+ "cutoff": "2024-10-17",
+ "bat": {
+  "n_eligible": 65,
+  "tau": {
+   "g": 0.0606882071133516,
+   "D": 1e-06,
+   "C": 1e-06
+  },
+  "reliability_shrink": {
+   "g": 0.35034812315228114,
+   "D": 2.0478529148925298e-11,
+   "C": 6.12816294384121e-11
+  },
+  "temporal": {
+   "n_players": 60.0,
+   "rho_rating_vs_post": 0.017393720477910532,
+   "rho_hierarchical_P_vs_post": -0.00861350375104196,
+   "rho_naive_raw_pressure_vs_post": -0.04695748819116422,
+   "rho_overall_raw_vs_post": -0.008780216726868576,
+   "rho_rating_ci_lo": -0.1807586245038846,
+   "rho_rating_ci_hi": 0.2179576441831868,
+   "post_mean_top10_rating": 0.00021939113592668542,
+   "post_mean_top10_naive": -0.00395947820452449,
+   "post_mean_all_eligible": 0.1253692906757182
+  },
+  "hetero_p": {
+   "g": 0.0023966285614841045,
+   "D": 0.9824993923034369,
+   "C": 0.8525787990590838
+  },
+  "split_half": {
+   "overall": 0.215,
+   "pressure_mean": 0.007,
+   "lift_D": -0.1,
+   "hit_rate": -0.087,
+   "normal_mean": 0.118
+  }
+ },
+ "bowl": {
+  "n_eligible": 71,
+  "tau": {
+   "g": 0.07118219416177121,
+   "D": 1e-06,
+   "C": 0.03933055832645258
+  },
+  "reliability_shrink": {
+   "g": 0.4315307351214448,
+   "D": 2.2713319539225798e-11,
+   "C": 0.09556852802417565
+  },
+  "temporal": {
+   "n_players": 62.0,
+   "rho_rating_vs_post": 0.2981793457732114,
+   "rho_hierarchical_P_vs_post": 0.32497292941502354,
+   "rho_naive_raw_pressure_vs_post": 0.20556017224446627,
+   "rho_overall_raw_vs_post": 0.3268363929389842,
+   "rho_rating_ci_lo": 0.08947011443612161,
+   "rho_rating_ci_hi": 0.5041862760597242,
+   "post_mean_top10_rating": 0.1457705425778278,
+   "post_mean_top10_naive": 0.12561876188818763,
+   "post_mean_all_eligible": 0.025071609234958644
+  },
+  "hetero_p": {
+   "g": 3.332339731878152e-05,
+   "D": 0.7994048576025535,
+   "C": 0.25248357355312134
+  },
+  "split_half": {
+   "overall": 0.319,
+   "pressure_mean": 0.144,
+   "lift_D": 0.005,
+   "hit_rate": 0.115,
+   "normal_mean": 0.191
+  }
+ }
+}
